@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+\@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +14,7 @@ html {
   font-size: 12px;
   font-weight: 600;
 }
+
 
 section {
   min-height: 100vh;
@@ -120,11 +121,25 @@ font-weight: 400;
   border-radius: 4px;
   align-self: flex-start;
 }
+
+.view-btn {
+  text-decoration: none;
+  text-align: center;
+  width: 130px;
+  padding: 10px 0;
+  background-color: #404041;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 4px;
+  align-self: flex-start;
+}
 .item-data {
   color: whitesmoke;
   display: block;
   margin-top: 10px;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   letter-spacing: 0.05rem;
   line-height: 2rem;
 }
